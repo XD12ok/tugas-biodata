@@ -26,11 +26,11 @@ class PreviewActivity : AppCompatActivity() {
         val hasil = """
             ===== CV Preview =====
 
-            Nama Lengkap : $nama
-            Alamat       : $alamat
-            Tanggal Lahir: $tglLahir
-            Jenis Kelamin: $gender
-            Agama        : $agama
+            Nama Lengkap        : $nama
+            Alamat              : $alamat
+            Tanggal Lahir       : $tglLahir
+            Jenis Kelamin       : $gender
+            Agama               : $agama
         """.trimIndent()
 
         tvHasil.text = hasil

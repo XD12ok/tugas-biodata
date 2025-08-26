@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="392dp"
+        android:layout_height="801dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -18,11 +18,11 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="CV Maker"
             android:textAlignment="center"
-            android:textStyle="bold"
             android:textSize="20dp"
-            android:layout_marginTop="10dp"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -36,8 +36,7 @@
             android:id="@+id/txtNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-             />
+            android:layout_margin="8dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -51,10 +50,10 @@
             android:id="@+id/txtAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:layout_margin="8dp"/>
+            android:inputType="textMultiLine" />
 
         <TextView
             android:id="@+id/textView5"
@@ -64,13 +63,14 @@
             android:text="Tanggal Lahir"
             android:textStyle="bold" />
 
-        <EditText
+        <DatePicker
             android:id="@+id/txtDate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="324dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
             android:ems="10"
-            android:inputType="date"
-            android:layout_margin="8dp"/>
+            android:inputType="date" />
 
         <TextView
             android:id="@+id/textView6"
@@ -83,7 +83,7 @@
         <RadioGroup
             android:id="@+id/rgGender"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <RadioButton
                 android:id="@+id/laki"
@@ -102,9 +102,9 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:text="Agama :"
-            android:textStyle="bold"
-            android:layout_margin="8dp"/>
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spnAgama"
@@ -115,8 +115,8 @@
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:text="Submit" />
 
         <TextView
             android:id="@+id/textView8"
